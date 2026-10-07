@@ -1,0 +1,39 @@
+body{
+    background-color: brown;
+
+}
+
+h1{
+    color:aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color:chocolate;
+    gap: 30px;
+}
+.contenedor-libro{
+    border: 2px solid #383838;
+    padding: 30px;
+    background-color: burlywood;
+    border-color: aliceblue;
+    margin: 20px;
+}
+.contenedor-libro:hover{
+    transform: scale(1.05);
+}
+.Disponible{
+    color: green
+}
+.no-Disponible{
+    color: red
+}
